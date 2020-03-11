@@ -11,6 +11,12 @@
 		2547F3C8241806D8005B65B4 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F3C7241806D8005B65B4 /* MenuCell.swift */; };
 		2547F3CA24180709005B65B4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F3C924180709005B65B4 /* MenuViewController.swift */; };
 		2547F3CC24181CE7005B65B4 /* Vinayagar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F3CB24181CE7005B65B4 /* Vinayagar.swift */; };
+		2547F3CE2418264A005B65B4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F3CD2418264A005B65B4 /* Model.swift */; };
+		2547F3D02418A376005B65B4 /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2547F3CF2418A376005B65B4 /* File.strings */; };
+		2547F3D22418A391005B65B4 /* Thirumurai1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F3D12418A391005B65B4 /* Thirumurai1.swift */; };
+		2547F3D42418A8D8005B65B4 /* Thirumurai2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F3D32418A8D8005B65B4 /* Thirumurai2.swift */; };
+		2547F3D82418B3D6005B65B4 /* sd1.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 2547F3D72418B3D6005B65B4 /* sd1.stringsdict */; };
+		2547F3DA2418B3FD005B65B4 /* text1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2547F3D92418B3FD005B65B4 /* text1.rtf */; };
 		2570F5F12417E94500F003C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2570F5F02417E94500F003C4 /* AppDelegate.swift */; };
 		2570F5F32417E94500F003C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2570F5F22417E94500F003C4 /* SceneDelegate.swift */; };
 		2570F5F52417E94500F003C4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2570F5F42417E94500F003C4 /* MainViewController.swift */; };
@@ -28,6 +34,12 @@
 		2547F3C7241806D8005B65B4 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		2547F3C924180709005B65B4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		2547F3CB24181CE7005B65B4 /* Vinayagar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vinayagar.swift; sourceTree = "<group>"; };
+		2547F3CD2418264A005B65B4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2547F3CF2418A376005B65B4 /* File.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = File.strings; sourceTree = "<group>"; };
+		2547F3D12418A391005B65B4 /* Thirumurai1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirumurai1.swift; sourceTree = "<group>"; };
+		2547F3D32418A8D8005B65B4 /* Thirumurai2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirumurai2.swift; sourceTree = "<group>"; };
+		2547F3D72418B3D6005B65B4 /* sd1.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = sd1.stringsdict; sourceTree = "<group>"; };
+		2547F3D92418B3FD005B65B4 /* text1.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = text1.rtf; sourceTree = "<group>"; };
 		2570F5ED2417E94500F003C4 /* Thevaram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thevaram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2570F5F02417E94500F003C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2570F5F22417E94500F003C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +73,24 @@
 			path = SupportFiles;
 			sourceTree = "<group>";
 		};
+		2547F3D52418A9A3005B65B4 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				2547F3D12418A391005B65B4 /* Thirumurai1.swift */,
+				2547F3D32418A8D8005B65B4 /* Thirumurai2.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		2547F3D62418AA0A005B65B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2570F5F42417E94500F003C4 /* MainViewController.swift */,
+				2547F3C924180709005B65B4 /* MenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2570F5E42417E94500F003C4 = {
 			isa = PBXGroup;
 			children = (
@@ -82,18 +112,22 @@
 		2570F5EF2417E94500F003C4 /* Thevaram */ = {
 			isa = PBXGroup;
 			children = (
-				2547F3C2241800A2005B65B4 /* Thevaram-Bridging-Header.h */,
-				2547F3C6241800B4005B65B4 /* SupportFiles */,
+				2547F3D62418AA0A005B65B4 /* Controller */,
+				2547F3D52418A9A3005B65B4 /* Books */,
 				2570F5F02417E94500F003C4 /* AppDelegate.swift */,
 				2570F5F22417E94500F003C4 /* SceneDelegate.swift */,
-				2570F5F42417E94500F003C4 /* MainViewController.swift */,
 				2547F3C7241806D8005B65B4 /* MenuCell.swift */,
+				2547F3CD2418264A005B65B4 /* Model.swift */,
 				2570F5F62417E94500F003C4 /* Main.storyboard */,
 				2570F5F92417E94700F003C4 /* Assets.xcassets */,
 				2570F5FB2417E94700F003C4 /* LaunchScreen.storyboard */,
 				2570F5FE2417E94700F003C4 /* Info.plist */,
-				2547F3C924180709005B65B4 /* MenuViewController.swift */,
 				2547F3CB24181CE7005B65B4 /* Vinayagar.swift */,
+				2547F3C2241800A2005B65B4 /* Thevaram-Bridging-Header.h */,
+				2547F3C6241800B4005B65B4 /* SupportFiles */,
+				2547F3D72418B3D6005B65B4 /* sd1.stringsdict */,
+				2547F3CF2418A376005B65B4 /* File.strings */,
+				2547F3D92418B3FD005B65B4 /* text1.rtf */,
 			);
 			path = Thevaram;
 			sourceTree = "<group>";
@@ -176,9 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2547F3D02418A376005B65B4 /* File.strings in Resources */,
+				2547F3D82418B3D6005B65B4 /* sd1.stringsdict in Resources */,
 				2570F5FD2417E94700F003C4 /* LaunchScreen.storyboard in Resources */,
 				2570F5FA2417E94700F003C4 /* Assets.xcassets in Resources */,
 				2570F5F82417E94500F003C4 /* Main.storyboard in Resources */,
+				2547F3DA2418B3FD005B65B4 /* text1.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,12 +269,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2570F5F52417E94500F003C4 /* MainViewController.swift in Sources */,
+				2547F3D22418A391005B65B4 /* Thirumurai1.swift in Sources */,
 				2547F3CA24180709005B65B4 /* MenuViewController.swift in Sources */,
 				2547F3C8241806D8005B65B4 /* MenuCell.swift in Sources */,
+				2547F3D42418A8D8005B65B4 /* Thirumurai2.swift in Sources */,
 				2570F5F12417E94500F003C4 /* AppDelegate.swift in Sources */,
 				2570F5F32417E94500F003C4 /* SceneDelegate.swift in Sources */,
 				2547F3C5241800A2005B65B4 /* SWRevealViewController.m in Sources */,
 				2547F3CC24181CE7005B65B4 /* Vinayagar.swift in Sources */,
+				2547F3CE2418264A005B65B4 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
