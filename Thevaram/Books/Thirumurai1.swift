@@ -8,8 +8,9 @@
 
 
 
-var thiru1 = Thirumurai(title: "திருமுறை1", padhigam: [t11,t12], poet: "திருஞானசம்பந்தர்")
+var thiru1 = Thirumurai(title: "திருமுறை1", padhigam: [t11,t12,t13], poet: "திருஞானசம்பந்தர்")
 
+let t13 = Padhigam(temple: "திருவலிதாயம்", songs: Parser().textParse())
 let t12 = Padhigam(temple: "திருப்புகலூர்", songs: """
 
 பண் :நட்டபாடை

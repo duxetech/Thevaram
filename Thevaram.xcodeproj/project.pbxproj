@@ -17,6 +17,9 @@
 		2547F3D42418A8D8005B65B4 /* Thirumurai2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F3D32418A8D8005B65B4 /* Thirumurai2.swift */; };
 		2547F3D82418B3D6005B65B4 /* sd1.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 2547F3D72418B3D6005B65B4 /* sd1.stringsdict */; };
 		2547F3DA2418B3FD005B65B4 /* text1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2547F3D92418B3FD005B65B4 /* text1.rtf */; };
+		2547F3DC2418F992005B65B4 /* Thirumurai8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F3DB2418F992005B65B4 /* Thirumurai8.swift */; };
+		2547F3DF241935DC005B65B4 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F3DE241935DC005B65B4 /* Parser.swift */; };
+		2547F3E1241938E4005B65B4 /* t1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2547F3E0241938E4005B65B4 /* t1.txt */; };
 		2570F5F12417E94500F003C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2570F5F02417E94500F003C4 /* AppDelegate.swift */; };
 		2570F5F32417E94500F003C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2570F5F22417E94500F003C4 /* SceneDelegate.swift */; };
 		2570F5F52417E94500F003C4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2570F5F42417E94500F003C4 /* MainViewController.swift */; };
@@ -40,6 +43,9 @@
 		2547F3D32418A8D8005B65B4 /* Thirumurai2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirumurai2.swift; sourceTree = "<group>"; };
 		2547F3D72418B3D6005B65B4 /* sd1.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = sd1.stringsdict; sourceTree = "<group>"; };
 		2547F3D92418B3FD005B65B4 /* text1.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = text1.rtf; sourceTree = "<group>"; };
+		2547F3DB2418F992005B65B4 /* Thirumurai8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirumurai8.swift; sourceTree = "<group>"; };
+		2547F3DE241935DC005B65B4 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		2547F3E0241938E4005B65B4 /* t1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = t1.txt; sourceTree = "<group>"; };
 		2570F5ED2417E94500F003C4 /* Thevaram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thevaram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2570F5F02417E94500F003C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2570F5F22417E94500F003C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,7 @@
 			children = (
 				2547F3D12418A391005B65B4 /* Thirumurai1.swift */,
 				2547F3D32418A8D8005B65B4 /* Thirumurai2.swift */,
+				2547F3DB2418F992005B65B4 /* Thirumurai8.swift */,
 			);
 			path = Books;
 			sourceTree = "<group>";
@@ -89,6 +96,14 @@
 				2547F3C924180709005B65B4 /* MenuViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2547F3DD241935C6005B65B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2547F3DE241935DC005B65B4 /* Parser.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		2570F5E42417E94500F003C4 = {
@@ -112,6 +127,8 @@
 		2570F5EF2417E94500F003C4 /* Thevaram */ = {
 			isa = PBXGroup;
 			children = (
+				2547F3E0241938E4005B65B4 /* t1.txt */,
+				2547F3DD241935C6005B65B4 /* Utils */,
 				2547F3D62418AA0A005B65B4 /* Controller */,
 				2547F3D52418A9A3005B65B4 /* Books */,
 				2570F5F02417E94500F003C4 /* AppDelegate.swift */,
@@ -215,6 +232,7 @@
 				2570F5FD2417E94700F003C4 /* LaunchScreen.storyboard in Resources */,
 				2570F5FA2417E94700F003C4 /* Assets.xcassets in Resources */,
 				2570F5F82417E94500F003C4 /* Main.storyboard in Resources */,
+				2547F3E1241938E4005B65B4 /* t1.txt in Resources */,
 				2547F3DA2418B3FD005B65B4 /* text1.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2547F3DC2418F992005B65B4 /* Thirumurai8.swift in Sources */,
 				2570F5F52417E94500F003C4 /* MainViewController.swift in Sources */,
 				2547F3D22418A391005B65B4 /* Thirumurai1.swift in Sources */,
 				2547F3CA24180709005B65B4 /* MenuViewController.swift in Sources */,
@@ -278,6 +297,7 @@
 				2547F3C5241800A2005B65B4 /* SWRevealViewController.m in Sources */,
 				2547F3CC24181CE7005B65B4 /* Vinayagar.swift in Sources */,
 				2547F3CE2418264A005B65B4 /* Model.swift in Sources */,
+				2547F3DF241935DC005B65B4 /* Parser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
